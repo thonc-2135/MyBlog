@@ -12,6 +12,7 @@ public enum Error {
     ALREADY_FAVORITED_ARTICLE("already followed user", HttpStatus.UNPROCESSABLE_ENTITY),
     FOLLOW_NOT_FOUND("such follow not found", HttpStatus.NOT_FOUND),
     ARTICLE_NOT_FOUND("article not found", HttpStatus.NOT_FOUND),
+    COMMENT_NOT_FOUND("comment not found", HttpStatus.NOT_FOUND),
     ;
 
     private final String message;
